@@ -3,8 +3,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #D9CDF7;
+}
 
+.sofar{
+    display: grid;
+    place-items: center;
+    margin-top: 8px;
+
+}
 img{
     Width: 449px;
     Height: 253px;
+    text-align: center;
+    margin-left: -30px;
+}
+
+h2{
+    width: 404px;
+    height: 40px;
+    font-size: 32px;
+    color: #271A45;
+    margin-left: 100px;
+}
+
+.preço{
+    width: 65px;
+    height: 20px;
+    text-align: center;
+    color: #271A45;
+    text-align: center;
+    margin-left: -240px;
+    
+}
+
+.codigo{
+    width: 200px;
+    height: 20px;
+    font-size: 10px;
+    margin-left: -230px;
+    text-align: center;
+    color:#271A45;
+}
+
+.button2{
+    Width: 148px;
+    Height: 32px;
+    margin-top: 16px;
+    text-align: center;
+    color: #271A45;
+    gap: 8px;
+    border-radius: 10px 10px 10px 10px;
+    border: 0.5px 0px 0px 0px;
+    background: local;
+    margin-left: -180px;
+}
+
+.button2:hover{
+background-color: #271A45;
+color: white;
+transition: 0.5s;
 }
