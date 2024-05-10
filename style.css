@@ -10,14 +10,14 @@ body{
 .sofar{
     display: grid;
     place-items: center;
-    margin-top: 8px;
+    margin-top: 70px;
 
 }
 img{
-    Width: 449px;
-    Height: 253px;
+    Width: 580px;
+    Height: 330px;
     text-align: center;
-    margin-left: -30px;
+    margin-left: 30px;
 }
 
 h2{
